@@ -7,7 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+dark:"#1b1b1b",
+light:"#f5f5f5",
+"background-theme": "linear-gradient(to right, #fc00ff, #00dbde)",
+nav:{ 
+  black:"rgba(10, 10, 10, 0.11)"
+}
+
+      },
       backgroundImage: {
+        // "navbar-theme":
+        "background-theme": "linear-gradient(to right, #fc00ff, #00dbde)",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
