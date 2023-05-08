@@ -6,7 +6,7 @@ export default function Logo() {
     <motion.div
     className=" bg-background-theme w-14 h-14 rounded-full absolute -z-10 blur-sm "
     animate={{
-      scale: [1, 1.3, 1.4, 1.3, 1,2,1.6],
+      scale: [1, 1.3, 1.4, 1.3, 1,1.4,1],
       rotate: [0, 0, 180, 180,0,180,90],
       filter:["blur(5px)","blur(5px)","blur(5px)","blur(5px)","blur(5px)","blur(100px)","blur(5px)"],
       borderRadius: ["100%","3rem","4rem","3rem","100%","100%","100%"]

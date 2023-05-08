@@ -1,0 +1,9 @@
+$primary-color: #00fbff;
+$border-radius-1: 10px;
+// $color-primary-1: #eb5757;
+$color-primary-1: #00fbff;
+:export {
+  primaryColor: $primary-color;
+  primaryColorTwo:$color-primary-1;
+  rdiOne:$border-radius-1;
+}

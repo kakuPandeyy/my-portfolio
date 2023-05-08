@@ -5,9 +5,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-    sassOptions: {
+  sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
-  }
+  },
   
 }
 

@@ -3,7 +3,7 @@ import { Montserrat } from 'next/font/google'
 
 
 import NavBar from '@/components/nav_bar/navBar'
-
+import Hero from '@/components/hero/hero'
 
 const font = Montserrat({ subsets: ['latin'] })
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${font.className} bg-black`  }>
       <NavBar/>
-      {children}
+    <Hero/>
       </body>
     </html>
   )
