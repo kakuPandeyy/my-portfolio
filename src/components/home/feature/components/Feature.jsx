@@ -1,17 +1,40 @@
 "use client"
-import { motion } from "framer-motion"
+import { motion  } from "framer-motion"
 
-
-import Collaborative from "../../../../assets/Collaborative.png"
-import motivated from "../../../../assets/motivated.png"
-import multitasking from "../../../../assets/multitasking.png"
 import Image from "next/image"
 import "./feature.scss"
-export default function FeatureComponents() {
-  return (
-  <div className=' py-10 rounded-3xl   flex flex-col gap-28 justify-start items-center  lg:flex-row  xl:flex-row  '>
+
+
+
+export default function FeatureComponents({pic,title,description,directionChange}) {
   
-<motion.div className=" curvy-boarder bg-dark3 col"
+
+
+  const offscreen= directionChange===false ? {
+    x: -200,
+  }:
+  {x:200} ;
+  const onscreen =  {
+          x: 0,
+      
+      transition: {
+        type: "spring",
+        bounce: 0.4,
+        duration: 1,
+        delay:0.05
+      }
+    }
+  
+
+  return (
+  <motion.div 
+     initial={offscreen}
+      whileInView={onscreen}
+     
+  className=' py-10 rounded-3xl   flex flex-col gap-28 justify-center items-center  lg:flex-row  xl:flex-row  '>
+
+<motion.div className= {`curvy-boarder bg-dark3 col ${directionChange&&`lg:order-2 xl:order-2`} `}
+
 animate={{
       borderRadius: ["30% 70% 44% 56% / 43% 54% 46% 57%",
       "81% 19% 73% 27% / 29% 61% 39% 71%  ",
@@ -29,19 +52,18 @@ animate={{
       repeat: Infinity,
       repeatDelay: 0
     }}
-
+   
 > 
 <Image 
-  src={multitasking}
+  src={pic}
   width={400}
   alt="collaborative"
 />
  </motion.div>
-<div className="  text-light flex flex-col gap-5">
-<h1 className=" font-extrabold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-violet-500 ">Collaborative</h1>
-<p className="break-words	 lg:w-72 xl:w-72 "> Teamwork makes the dream work. 
-Collaboration first, then work.</p>
+<div className= {`  text-light flex flex-col gap-5 ${ directionChange&&`lg:-order-2  xl:-order-2`} `}>
+<h1 className=" font-extrabold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-violet-500 ">{title}</h1>
+<p className="break-words	 lg:w-72 xl:w-72  text-md font-md"> {description}</p>
 </div>
-  </div>
+  </motion.div>
   )
 }
