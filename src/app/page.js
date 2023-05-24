@@ -1,9 +1,12 @@
-import Hero from "@/components/hero/hero"
-  
+  import Hero from "@/components/home/hero/hero"
+  import ProjectCount from "@/components/home/ProjectCount/ProjectCount"
+ import Feature from "@/components/home/feature/feature"
 export default function Home() {
   return (
   <main>
-   <Hero/>
+  <Hero/>
+<ProjectCount/>
+<Feature/>
   </main>
   )
 }

@@ -1,16 +1,17 @@
-import Button from "@/components/Button/Button"
+import Button from "@/components/Common/Button/Button"
 import {FaGithub} from "react-icons/fa"
 import {AiFillLinkedin} from "react-icons/ai"
 import {GrInstagram} from "react-icons/gr"
 import {AiOutlineMail} from "react-icons/ai"
 import {BsDownload} from "react-icons/bs"
+import "./heroContent.scss"
 export default function HeroContent() {
   return (
     <div className="flex w-1/2 justify-center items-center text-light flex-col ">
     <div className="w-auto lg:w-1/2 leading-6 justify-center items-center text-center lg:text-left xl:text-left gap-10">
     <h1 className=" font-semibold">hey!</h1>
-      <h1 className=" font-extrabold text-4xl"> I&apos;m <span className=" gradient-text bg-clip-text fill-transparent">Abhishek</span> </h1>
-      <h1 className="font-extrabold text-5xl  gradient-text-two">web developer</h1>
+      <h1 className=" font-extrabold text-4xl"> I&apos;m <span className=" bg-text-yellow bg-clip-text fill-transparent">Abhishek</span> </h1>
+      <h1 className="font-extrabold text-5xl bg-text-theme">web developer</h1>
       <p className=" text-gray-400">passion for making better world</p>
       <div className="social text-lg flex flex-row my-6 gap-4 justify-center items-center lg:justify-start">
       <div>follow me</div>

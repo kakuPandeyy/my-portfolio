@@ -10,9 +10,12 @@ module.exports = {
       colors:{
 dark:"#1b1b1b",
 light:"#f5f5f5",
-
+dark2:"rgb(28,28,28)",
+dark3:"rgb(47,47,47)",
+gro:"rgb(142,210,169)",
+blue:"#00dbde",
 nav:{ 
-  black:"rgba(10, 10, 10, 0.11)"
+  black:"rgba(0, 81, 255, 0.03)"
 }
 
       },

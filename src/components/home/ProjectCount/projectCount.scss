@@ -1,0 +1,12 @@
+@mixin shader {
+  background-color: rgb(47,47,47);
+  border-radius: 50px;
+}
+ .project-show-off{
+ width: 80%;
+ @include shader();
+ @media only screen and (max-width:624px) {
+   aspect-ratio: 1/2;
+ }
+ 
+}
