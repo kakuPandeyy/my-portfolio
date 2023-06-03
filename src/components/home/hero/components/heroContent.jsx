@@ -1,7 +1,5 @@
 import Button from "@/components/Common/Button/Button"
-import {FaGithub} from "react-icons/fa"
-import {AiFillLinkedin} from "react-icons/ai"
-import {GrInstagram} from "react-icons/gr"
+import Social from "@/components/Common/social/Social"
 import {AiOutlineMail} from "react-icons/ai"
 import {BsDownload} from "react-icons/bs"
 import "./heroContent.scss"
@@ -15,13 +13,7 @@ export default function HeroContent() {
       <p className=" text-gray-400">passion for making better world</p>
       <div className="social text-lg flex flex-row my-6 gap-4 justify-center items-center lg:justify-start">
       <div>follow me</div>
-     
-    <div className=" flex flex-row gap-3 text-2xl ">
-    <FaGithub className=" hover:text-black hover:bg-white rounded-md hover:cursor-pointer"/>
-        <AiFillLinkedin className=" hover:text-blue-400 hover:bg-white rounded-md  hover:cursor-pointer" />
-        <GrInstagram className=" hover:text-orange-300 hover:cursor-pointer" />
-    </div>
-        
+      <Social gap="3" fontSize="2xl" />
       </div>
       <div className="flex gap-8 mt-16  justify-center items-center lg:justify-start">
 <Button>

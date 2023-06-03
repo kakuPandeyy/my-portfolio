@@ -1,0 +1,62 @@
+.contributions-graph {
+    margin: 5%;
+  
+   
+  
+    .calendar {
+      border: none;
+      .position-relative{
+        overflow-x: scroll;
+        &::-webkit-scrollbar {
+          height: 10px;
+        
+        }
+
+        
+      }
+     
+    
+      background: #2f2f2f;
+      border-radius: 20px;
+      padding: 2rem;
+      margin: 2%;
+      color: white;
+.width-full.px-0.px-md-5.py-1{
+    display:  flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: columns;
+
+    padding: 1rem;
+    
+}
+.float-right.color-fg-muted{
+  display:  flex;
+  flex-direction: row;
+   }
+     
+      .border,
+      .contrib-column {
+        border: none !important;
+      
+        @media screen and (max-width: 500) {
+          display: block;
+          width: 100%;
+        }
+      }
+  
+      .contrib-number {
+        color: white !important;
+      }
+  
+      @media screen and (max-width: 500) {
+        .overflow-hidden {
+          overflow-x: scroll !important;
+          &::-webkit-scrollbar {
+            height: 0.7rem;
+          }
+  
+        }
+      }
+    }
+  }

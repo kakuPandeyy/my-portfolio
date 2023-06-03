@@ -1,10 +1,10 @@
 "use client"
 import { motion } from "framer-motion"
-export default function Logo() {
+export default function Logo({className}) {
   return (
     <>
     <motion.div
-    className=" bg-background-theme w-14 h-14 rounded-full absolute -z-10 blur-sm "
+    className= {`${className} bg-background-theme w-14 h-14 rounded-full absolute -z-10 blur-sm`}
     animate={{
       scale: [1, 1.3, 1.4, 1.3, 1,1.4,1],
       rotate: [0, 0, 180, 180,0,180,90],
@@ -20,7 +20,7 @@ export default function Logo() {
       repeatDelay: 1
     }}
   />
-    <div className="  flex justify-center items-center w-14 h-14 text-xl bg-dark font-bold rounded-full text-light " >AB</div>
+    <div className={` ${className} flex justify-center items-center w-14 h-14 text-xl bg-dark font-bold rounded-full text-light`}  >AB</div>
     </>
   )
 }

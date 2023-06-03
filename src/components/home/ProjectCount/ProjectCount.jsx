@@ -4,7 +4,6 @@
 import "./projectCount.scss"
 import AmaitedCounter from "@/components/Common/amaitedCounter/AmaitedCounter";
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 import Image from 'next/image';
 import workPro from "../../../assets/workholic.png"
 export default function ProjectCount() {
@@ -22,7 +21,7 @@ export default function ProjectCount() {
         
         transition: {
          duration: 0.7 ,
-         delay:0.3
+         delay:0.1
         }
       }
       const offscreen1=  {
@@ -35,7 +34,7 @@ export default function ProjectCount() {
           
           transition: {
            duration: 0.7 ,
-           delay:0.3
+           delay:0.1
           }
         }
     
