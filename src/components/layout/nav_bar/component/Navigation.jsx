@@ -29,7 +29,7 @@ export default function Navigation({href,name}) {
     <div>
     <motion.div variants={itemVariants}>
 <Nav  underline={currentPage===href?"0":"100"} >
-   <Link href={href} className=  {`  nav-link `} > <h2>{name}</h2> <div className="h-[1px] w-full bg-white nav-item"></div> </Link>
+   <Link href={href} className=  {`  nav-link `} > <h2>{name}</h2> <div className=" h-[1.7px] w-full bg-white nav-item"></div> </Link>
 </Nav>
 
     </motion.div>

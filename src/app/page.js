@@ -4,7 +4,7 @@
  import Feature from "@/components/home/feature/feature"
 export default function Home() {
   return (
-  <main>
+  <main className=" overflow-hidden">
   <Hero/>
 <ProjectCount/>
 <Feature/>

@@ -81,7 +81,7 @@ if (!isWindowAvailable) {
 
          </motion.nav>
         :
-         <nav className= {`flex flex-row lg:gap-20    gap-3 md:gap-6 text-light `}>
+         <nav className= {`flex flex-row lg:gap-20  text-lg font-semibold md:gap-6 text-light `}>
          <Navigation href="/" name="Home"/>
          <Navigation href="/about" name="About"/>
          <Navigation href="/projects" name="projects"/>

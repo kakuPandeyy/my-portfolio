@@ -13,7 +13,7 @@ export default function HeroContent() {
       <p className=" text-gray-400">passion for making better world</p>
       <div className="social text-lg flex flex-row my-6 gap-4 justify-center items-center lg:justify-start">
       <div>follow me</div>
-      <Social gap="3" fontSize="2xl" />
+      <Social className="gap-2" fontSize="2xl" />
       </div>
       <div className="flex gap-8 mt-16  justify-center items-center lg:justify-start">
 <Button>
