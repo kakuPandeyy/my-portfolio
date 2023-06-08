@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.hover-css:hover>p{
+display: block;
+}
 .background{
  height: 100vh;
  width: 100vw;

@@ -65,7 +65,7 @@ if (!isWindowAvailable) {
          <Logo/>
   
          {width<770? 
-         <motion.nav className="background " initial={  {clipPath: "circle(60px  at 90% 7%)"} } animate={isOpen? "closed" : "open"} variants={  sidebar} >
+         <motion.nav className="background " initial={  {clipPath: "circle(40px  at 90% 7%)"} } animate={isOpen? "closed" : "open"} variants={  sidebar} >
       
          <motion.div onClick={()=>toggleOpen()}  className={`btn `}   >
          

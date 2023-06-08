@@ -2,6 +2,9 @@
 
 const path = require('path');
 const nextConfig = {
+  images: {
+    domains: ['localhost'],
+  },
   experimental: {
     appDir: true,
   },
