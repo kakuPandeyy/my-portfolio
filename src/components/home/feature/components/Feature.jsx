@@ -12,16 +12,18 @@ export default function FeatureComponents({pic,title,description,directionChange
 
   const offscreen= directionChange===false ? {
     x: -200,
+  
   }:
-  {x:200} ;
+  {x:200,} ;
   const onscreen =  {
           x: 0,
-      
+     
       transition: {
         type: "spring",
         bounce: 0.4,
         duration: 1,
-        delay:0.05
+        delay:0.02
+        
       }
     }
   

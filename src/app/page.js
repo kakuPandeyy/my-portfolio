@@ -1,13 +1,15 @@
 
   import Hero from "@/components/home/hero/hero"
-  import ProjectCount from "@/components/home/ProjectCount/ProjectCount"
- import Feature from "@/components/home/feature/feature"
+
+ import dynamic from "next/dynamic"
+ const DynamicFeature = dynamic(() => import('@/components/home/feature/feature'));
+ const DynamicProjectCount = dynamic(() => import('@/components/home/ProjectCount/ProjectCount'));
 export default function Home() {
   return (
   <main className=" overflow-hidden">
   <Hero/>
-<ProjectCount/>
-<Feature/>
+<DynamicProjectCount/>
+<DynamicFeature/>
 
   </main>
   )

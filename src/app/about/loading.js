@@ -6,9 +6,9 @@ export default function Loading() {
     </div>
      <div className="flex w-1/2 justify-center items-center  flex-col ">
     <div className="w-auto lg:w-1/2  justify-center items-center gap-10">
-    <div className="  bg-slate-700 h-4 w-12 mt-10 rounded-lg"></div>
-      <div className="  bg-slate-700 h-8 w-36 mt-10 rounded-lg"> </div>
-      <div className=" bg-slate-700  h-8 w-36 mt-10 rounded-lg"></div>
+    <div className="  bg-slate-700 h-4 w-69 mt-10 rounded-lg"></div>
+      <div className="  bg-slate-700 h-4 w-60 mt-10 rounded-lg"> </div>
+      <div className=" bg-slate-700  h-4 w-60 mt-10 rounded-lg"></div>
       <div className="   bg-slate-700 h-4 mt-10 rounded-lg"></div>
    
 

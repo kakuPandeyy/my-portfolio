@@ -16,13 +16,13 @@ function Item({className}) {
       <div ref={ref}  className=" absolute left-[0.25rem] md:left-[5rem] lg:left[10rem] " >
         <figure className= {`${className}  stroke-gro2 `} >
           <svg id="progress" width="75" height="75" viewBox="0 0 100 100"  >
-            <circle cx="35" cy="50" r="30" className="  fill-none " />
+            <circle cx="35" cy="50" r="30" className="  fill-dark " />
             <motion.circle
               cx="35"
               cy="50"
               r="20"
               pathLength="1"
-              className=" stroke-[5px] fill-dark2"
+              className=" stroke-[5px] fill-dark"
               style={{ pathLength: scrollYProgress }}
             />
              <circle cx="35" cy="50" r="10" pathLength="1" className=" animate-pulse fill-gro2 " />
