@@ -73,7 +73,7 @@ if (!isWindowAvailable) {
 
          </motion.div>
           <motion.div variants={navVariants}  className= {`flex flex-col gap-6 text-5xl font-semibold text-light absolute top-1/4 right-1/4 `}>
-         <Navigation href="/" name="Home" />
+         <Navigation onClick={()=>toggleOpen(false)}  href="/" name="Home" />
          <Navigation href="/about" name="About"/>
          <Navigation href="/projects" name="projects"/>
           </motion.div>
