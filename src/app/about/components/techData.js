@@ -11,7 +11,7 @@ const techData = [
   },
   {
     techName: 'TAILWIND-CSS',
-    imageUrl: prefix + 'tailwindcss/tailwindcss-plain.svg',
+    imageUrl: prefix + 'tailwindcss/tailwindcss-original.svg',
     bg: true
   },
   {

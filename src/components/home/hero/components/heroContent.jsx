@@ -16,14 +16,27 @@ export default function HeroContent() {
       <Social className="gap-2" fontSize="2xl" />
       </div>
       <div className="flex gap-8 mt-16  justify-center items-center lg:justify-start">
-<Button>
+
+      <a   href="https://mail.google.com/mail/?view=cm&fs=1&to=abhi36885@gmail.com" 
+  target="_blank" >
+        <Button>
 <AiOutlineMail/>
 Mail
 </Button>
+      </a>
+
+
+
+
+<a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+
+
 <Button outline >
 <BsDownload/>
+
 Resume
 </Button>
+</a>
       </div>
     </div>
      

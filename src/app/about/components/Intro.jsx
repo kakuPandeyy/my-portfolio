@@ -8,6 +8,11 @@ export default function Intro() {
  <Image src={hero2} height={300} width={250} alt="hero"/>
  <div className=' max-w-4xl flex justify-center items-center py-12 relative  lg:-order-1 xl:-order-1'>
      <div className='  max-w-6xl px-8 text-lg font-medium leading-8 lg:pt-32 '>
+    
+         <h1 className="font-extrabold text-5xl  text-red-300 ">Namaste World</h1>
+           
+        
+    
           <h2 className=' text-gray-400'>   Hi there! Thanks for visiting my portfolio.</h2>
      <p className=' text-gray-400'>
 

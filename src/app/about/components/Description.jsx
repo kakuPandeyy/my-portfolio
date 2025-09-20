@@ -4,6 +4,8 @@
    return (
      <div className=' w-screen flex justify-center items-center py-12 relative text-left'>
      <div className='  max-w-6xl px-8 text-2xl font-bold leading-10 lg:-order-1 xl:-order-1 '>
+
+          <h1 className="font-extrabold text-5xl bg-text-theme">web developer</h1>
           <h2 className=' text-gray-400'>   Hi there! Thanks for visiting my portfolio.</h2>
      <p className=' text-gray-400'>
 
